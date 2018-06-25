@@ -1,0 +1,19 @@
+.fixedBottom {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 5%;
+    padding: 10px;
+    background-color:#302f8d;
+    border-top: 1px solid #e3e3e3;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    z-index: 999;
+    
+}
+
+button.PlayButton.isEnabled {
+    display: flex;
+}
